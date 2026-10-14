@@ -1,7 +1,6 @@
-"""SupportIQ — Streamlit interface for a transparent supervised NLP demo.
+"""Streamlit interface for the SupportIQ support ticket classifier.
 
-Presentation only. The model, labels, training workflow, and evaluation
-artifacts live in separate modules and are intentionally left unchanged.
+Model inference and training are implemented in separate modules.
 """
 
 from __future__ import annotations
@@ -68,9 +67,8 @@ def render_sidebar() -> None:
         st.markdown("**Model**")
         st.caption("TF-IDF + Logistic Regression")
         st.caption("6 intents · Supervised learning")
-        st.caption("No paid AI API or database")
         st.divider()
-        st.caption("Educational demo. Don't include passwords, card data, or personal details.")
+        st.caption("Demo app. Do not enter sensitive personal or payment information.")
 
 
 def render_prediction(result: dict | None) -> None:
@@ -88,7 +86,7 @@ def render_prediction(result: dict | None) -> None:
         st.subheader(f"{metadata['icon']} {metadata['label']}")
         st.metric("Model score", f"{score:.1%}")
         st.progress(score)
-        st.caption("Scores are model outputs, not calibrated guarantees of correctness.")
+        st.caption("Model scores are not calibrated probabilities.")
 
     if score < 0.45:
         st.warning("Low-confidence classification — human review is recommended.")
@@ -207,9 +205,8 @@ def render_insights(model, metrics: dict) -> None:
 def render_about() -> None:
     st.subheader("About SupportIQ")
     st.write(
-        "SupportIQ is a portfolio demonstration of supervised text classification. "
-        "A TF-IDF vectorizer represents the messages numerically, and a "
-        "Logistic Regression classifier learns to predict one of six categories."
+        "SupportIQ categorizes customer support messages using TF-IDF text "
+        "features and a Logistic Regression classifier."
     )
     st.markdown(
         "**Workflow:** labeled examples → train/test split → TF-IDF → "
@@ -238,11 +235,10 @@ def main() -> None:
         st.stop()
 
     # Use native Streamlit markup for stable layout across frontend updates.
-    st.caption("NLP  /  CLASSIFICATION  /  EXPLAINABILITY")
+    st.caption("SUPPORT TICKET CLASSIFICATION")
     st.title("Support, :violet[decoded.]")
     st.write(
-        "Classify customer messages, identify the likely intent, and suggest "
-        "practical first steps. Real supervised machine learning, not an AI API wrapper."
+        "Classify customer support messages by intent and get a suggested next step."
     )
     st.caption("TF-IDF   ·   Logistic Regression   ·   Six support intents")
     st.divider()
