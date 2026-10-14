@@ -1,0 +1,217 @@
+text,intent
+Where can I track my order shipment?,track_order
+"My parcel has not arrived yet, can you locate it?",track_order
+What is the current status of my online order?,track_order
+Can I get the tracking number for my purchase?,track_order
+The package is delayed and I need an update.,track_order
+How do I find out where my delivery is?,track_order
+My shipping status has not changed in days.,track_order
+Could you check the delivery progress of my order?,track_order
+"I ordered shoes last week, are they on their way?",track_order
+Please tell me when my package will reach me.,track_order
+The courier tracking link is not updating.,track_order
+How long until the item arrives at my door?,track_order
+Can I see the estimated arrival date for my shipment?,track_order
+"My order still says in transit, what does that mean?",track_order
+I want to know whether my parcel has been dispatched.,track_order
+The estimated delivery date has already passed.,track_order
+Has my recent order been shipped yet?,track_order
+I need information about the whereabouts of my package.,track_order
+I haven't received any tracking updates for my item.,track_order
+When should I expect my headphones to be delivered?,track_order
+Could you provide the latest parcel tracking information?,track_order
+Can someone check if my order is out for delivery?,track_order
+The shipment is stuck at the sorting facility.,track_order
+"My package seems lost, where is it now?",track_order
+Please help me find my missing delivery.,track_order
+Are there updates from the shipping carrier?,track_order
+Track the delivery for my recent purchase please.,track_order
+I need the expected delivery window for my order.,track_order
+I can't find my shipment tracking details.,track_order
+What happened to the order I placed on Monday?,track_order
+Has the courier picked up my parcel?,track_order
+Why is my delivery taking longer than expected?,track_order
+I want to follow the progress of my shipped item.,track_order
+My parcel did not show up on the promised date.,track_order
+Could you look up the shipping progress for my laptop?,track_order
+Do you know if my item has reached the local delivery hub?,track_order
+I need to cancel the order I just placed.,cancel_order
+Please stop my purchase before it is shipped.,cancel_order
+How can I cancel an unwanted order?,cancel_order
+I bought the wrong product and want to cancel it.,cancel_order
+Can you cancel my booking right away?,cancel_order
+I changed my mind about my recent order.,cancel_order
+"Remove the order from my account, please.",cancel_order
+I accidentally ordered two items and need one cancelled.,cancel_order
+Can I undo a purchase that I made this morning?,cancel_order
+"I do not want this item anymore, cancel my order.",cancel_order
+Is it too late to cancel my purchase?,cancel_order
+"I selected the wrong color, so please cancel that order.",cancel_order
+Please stop processing my order.,cancel_order
+I no longer need the item I ordered.,cancel_order
+Where is the cancellation option in my order details?,cancel_order
+Help me void this order before dispatch.,cancel_order
+I'd like to withdraw the order I submitted yesterday.,cancel_order
+"I made a duplicate purchase by mistake, cancel it.",cancel_order
+Can you prevent this order from being fulfilled?,cancel_order
+I need to cancel my headphones order urgently.,cancel_order
+How do I reverse an order before delivery begins?,cancel_order
+I'm trying to cancel a purchase but the button doesn't work.,cancel_order
+Please take the item off my order list.,cancel_order
+Can I back out of a confirmed order?,cancel_order
+"I don't need the product, how do I cancel?",cancel_order
+Stop the shipment because I ordered by accident.,cancel_order
+Cancel the order instead of sending it to me.,cancel_order
+I selected the wrong size and want to cancel.,cancel_order
+Please help me withdraw my latest purchase.,cancel_order
+Can I still cancel even though the order is processing?,cancel_order
+I want to abort this order transaction.,cancel_order
+I ordered without checking the details and need cancellation.,cancel_order
+Is order cancellation available after checkout?,cancel_order
+I want the merchant to void my order.,cancel_order
+"Don't ship my order, please cancel it instead.",cancel_order
+I need a way to cancel my submitted purchase.,cancel_order
+The product arrived broken and I want a refund.,get_refund
+Can I get my money back for this order?,get_refund
+I need to return the item and request reimbursement.,get_refund
+How do I submit a refund request?,get_refund
+Please refund the payment for my defective headphones.,get_refund
+I received a damaged item and would like my money returned.,get_refund
+What is the process for getting a refund?,get_refund
+"I was sent the wrong product, can you reimburse me?",get_refund
+I am unhappy with my purchase and want a refund.,get_refund
+I need to claim a refund for a faulty product.,get_refund
+Please help me initiate a return and refund.,get_refund
+My item doesn't work and I want my money back.,get_refund
+Can you give me a refund for this purchase?,get_refund
+I would like to ask for a full refund.,get_refund
+"The goods were not as described, so I need reimbursement.",get_refund
+I want to get a partial refund for the damaged package.,get_refund
+Are refunds possible for an incorrect order?,get_refund
+I need a refund because the item is unusable.,get_refund
+Can I apply for a refund after returning the parcel?,get_refund
+Please tell me how to get reimbursed for my purchase.,get_refund
+I'm requesting my payment back for a faulty charger.,get_refund
+What steps are required to receive a refund?,get_refund
+How can I open a refund case for my order?,get_refund
+The shirt arrived with a tear and I want the amount refunded.,get_refund
+I need to return these shoes and reclaim my money.,get_refund
+Please approve a refund for this defective product.,get_refund
+Can I receive a refund instead of a replacement?,get_refund
+I would prefer my money back over store credit.,get_refund
+"I returned an item, how do I request a refund?",get_refund
+I need help asking for a refund on the damaged item.,get_refund
+I purchased the wrong item and would like a refund after return.,get_refund
+What is the refund process for an unsatisfactory purchase?,get_refund
+My new device stopped working and I want a reimbursement.,get_refund
+Can you issue a refund for the product that arrived cracked?,get_refund
+I would like to refund a recent purchase.,get_refund
+Please tell me if I can get the purchase amount back.,get_refund
+My card was declined while checking out.,payment_issue
+The checkout page keeps showing a payment error.,payment_issue
+I was charged twice for a single order.,payment_issue
+The UPI payment failed but money was deducted.,payment_issue
+I cannot complete the transaction for my purchase.,payment_issue
+My debit card payment is not going through.,payment_issue
+The checkout is stuck on processing payment.,payment_issue
+The bank says the charge succeeded but the website says failed.,payment_issue
+There is an unexpected duplicate charge on my card.,payment_issue
+What should I do about a failed credit card payment?,payment_issue
+I can't pay through the available payment gateway.,payment_issue
+My transaction was declined for no clear reason.,payment_issue
+The payment page freezes when I enter checkout.,payment_issue
+I see an error after submitting the payment form.,payment_issue
+Please help resolve a billing transaction failure.,payment_issue
+Why did the payment system charge me more than once?,payment_issue
+The amount was deducted but the order is not confirmed.,payment_issue
+My online payment keeps getting rejected.,payment_issue
+I can't use my preferred payment method at checkout.,payment_issue
+The wallet transaction failed during purchase.,payment_issue
+My payment was interrupted midway through checkout.,payment_issue
+I am being billed twice for the same purchase.,payment_issue
+The app shows payment unsuccessful even though I paid.,payment_issue
+A card authorization error prevents me from ordering.,payment_issue
+I need help with a payment processing issue.,payment_issue
+The payment gateway timed out after I clicked pay.,payment_issue
+My credit card charge appears twice on the statement.,payment_issue
+Why does checkout say transaction unsuccessful?,payment_issue
+I have a billing error when trying to buy something.,payment_issue
+Can you check why my payment was not accepted?,payment_issue
+Money left my bank account but the payment status is pending.,payment_issue
+The website won't accept my payment details.,payment_issue
+I received a payment declined notification at checkout.,payment_issue
+My net banking transaction returned an error.,payment_issue
+I can't place the order because the payment fails.,payment_issue
+I was debited even though checkout says the payment failed.,payment_issue
+I forgot my login password and cannot sign in.,recover_password
+How can I reset my account password?,recover_password
+I have lost access to my account credentials.,recover_password
+The password I remember no longer works.,recover_password
+Can you send me a link to recover my password?,recover_password
+I am locked out of my profile and need to log in.,recover_password
+Help me regain access to my account.,recover_password
+I can't remember the password for my user account.,recover_password
+Where is the forgot password option?,recover_password
+I need to recover my account after losing my password.,recover_password
+My login is failing because I forgot the passcode.,recover_password
+Please help me reset my sign in details.,recover_password
+I cannot access my account and need a password reset.,recover_password
+How do I change a forgotten account password?,recover_password
+I forgot the credentials required to enter my profile.,recover_password
+The reset password email has not arrived.,recover_password
+I cannot get into my account after forgetting my password.,recover_password
+Please guide me through the password recovery process.,recover_password
+I need a new password for my shopping account.,recover_password
+My old password doesn't let me log in anymore.,recover_password
+How can I unlock my account and sign in again?,recover_password
+I can't sign in to my profile with my current password.,recover_password
+Could you provide instructions for recovering account access?,recover_password
+The password reset link is not working.,recover_password
+I need help logging back into my account.,recover_password
+My account login credentials are missing.,recover_password
+I forgot the password I created during registration.,recover_password
+How do I get back into a locked user profile?,recover_password
+I cannot remember my account password at all.,recover_password
+The password recovery form is not sending an email.,recover_password
+Can you assist with account password restoration?,recover_password
+I don't know my sign-in password anymore.,recover_password
+I am unable to authenticate to my customer account.,recover_password
+I need to regain access because my password is lost.,recover_password
+The login page says my password is incorrect.,recover_password
+I need to update my password but cannot sign in.,recover_password
+I entered the wrong shipping address on my order.,change_shipping_address
+Can I change where my package will be delivered?,change_shipping_address
+Please update the delivery address for my purchase.,change_shipping_address
+I have moved and need the parcel shipped to a different place.,change_shipping_address
+How can I correct my shipping address after checkout?,change_shipping_address
+I forgot my apartment number in the delivery address.,change_shipping_address
+Please redirect my package to my new address.,change_shipping_address
+I want to edit the destination for my order.,change_shipping_address
+My street address is incorrect on the shipment details.,change_shipping_address
+Can I change the postcode on my delivery address?,change_shipping_address
+I need to update my shipping location before dispatch.,change_shipping_address
+The courier has the wrong destination for my parcel.,change_shipping_address
+Please change the city where my item is being delivered.,change_shipping_address
+I used my old address by mistake when ordering.,change_shipping_address
+Where do I modify the address on a confirmed order?,change_shipping_address
+I need to change the shipping address for my headphones.,change_shipping_address
+My house number is wrong on the order delivery details.,change_shipping_address
+Can the parcel be sent to my office instead of home?,change_shipping_address
+I want to replace the delivery location with another address.,change_shipping_address
+The shipping information needs to be corrected.,change_shipping_address
+Can I update my phone address details for this shipment?,change_shipping_address
+My package should go to a different apartment.,change_shipping_address
+I typed the wrong zip code for delivery.,change_shipping_address
+Can you fix the address on my recent order?,change_shipping_address
+I need to reroute the shipment to a new street.,change_shipping_address
+Please update the delivery destination before shipping.,change_shipping_address
+I put the wrong building number for the courier.,change_shipping_address
+How do I amend the shipping information?,change_shipping_address
+I need to switch the delivery address on my purchase.,change_shipping_address
+The address used at checkout is no longer valid.,change_shipping_address
+Can you send the item to my new home address?,change_shipping_address
+I have to correct the delivery postal code.,change_shipping_address
+My order should be shipped to another location.,change_shipping_address
+Please let me change the saved delivery address for this order.,change_shipping_address
+I want to modify the shipping address before the parcel arrives.,change_shipping_address
+I made a mistake entering the recipient address.,change_shipping_address

@@ -1,0 +1,118 @@
+{
+  "source": "Original small illustrative training set, authored for SupportIQ",
+  "note": "Single stratified random 25% hold-out on labeled examples; not a real-world benchmark.",
+  "rows": 216,
+  "train_rows": 162,
+  "test_rows": 54,
+  "accuracy": 0.8333,
+  "macro_f1": 0.8309,
+  "class_report": {
+    "track_order": {
+      "precision": 0.625,
+      "recall": 0.5555555555555556,
+      "f1-score": 0.5882352941176471,
+      "support": 9.0
+    },
+    "cancel_order": {
+      "precision": 0.7777777777777778,
+      "recall": 0.7777777777777778,
+      "f1-score": 0.7777777777777778,
+      "support": 9.0
+    },
+    "get_refund": {
+      "precision": 0.8,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.8421052631578947,
+      "support": 9.0
+    },
+    "payment_issue": {
+      "precision": 1.0,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.9411764705882353,
+      "support": 9.0
+    },
+    "recover_password": {
+      "precision": 0.8888888888888888,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.8888888888888888,
+      "support": 9.0
+    },
+    "change_shipping_address": {
+      "precision": 0.9,
+      "recall": 1.0,
+      "f1-score": 0.9473684210526315,
+      "support": 9.0
+    },
+    "accuracy": 0.8333333333333334,
+    "macro avg": {
+      "precision": 0.8319444444444445,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8309253525971793,
+      "support": 54.0
+    },
+    "weighted avg": {
+      "precision": 0.8319444444444445,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8309253525971791,
+      "support": 54.0
+    }
+  },
+  "labels": [
+    "track_order",
+    "cancel_order",
+    "get_refund",
+    "payment_issue",
+    "recover_password",
+    "change_shipping_address"
+  ],
+  "confusion_matrix": [
+    [
+      5,
+      2,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      7,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      9
+    ]
+  ]
+}
